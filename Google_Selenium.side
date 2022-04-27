@@ -1,0 +1,93 @@
+{
+  "id": "200e76a5-9288-41c0-b4a0-2dfa62d79b65",
+  "version": "2.0",
+  "name": "Google_Selenium",
+  "url": "https://www.google.co.in",
+  "tests": [{
+    "id": "8537f468-b970-4e01-bcdc-4f087b9b10d2",
+    "name": "Google_Selenium",
+    "commands": [{
+      "id": "c1397cb2-15a4-4297-9560-fd66463e41ec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d3ca9aa-b506-47ec-ad01-85b9aa888a55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "802x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19b66f8c-8ee2-4068-93eb-a057cec01eee",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8428e4ef-9269-464c-b694-37eaf2861015",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "art of testing"
+    }, {
+      "id": "0e03c28c-369a-40df-ac49-5f73a5439bdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd > span",
+      "targets": [
+        ["css=.WggQGd > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'art of testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d5b26f4-e17f-4d47-8e56-eba1010f63ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ArtOfTesting: Learn Testing Online with Free Tutorials')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15d14854-7e38-4d07-bcf5-11dc5126f7ee",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.entry-content > .has-text-align-center:nth-child(1)",
+      "targets": [
+        ["css=.entry-content > .has-text-align-center:nth-child(1)", "css:finder"],
+        ["xpath=//article[@id='post-188']/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "“Be a part of over 2 million testing enthusiasts that have been benefited from our free tutorials.”"
+    }]
+  }],
+  "suites": [{
+    "id": "2dac07bd-b642-48e1-8b30-25a0c95626e7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8537f468-b970-4e01-bcdc-4f087b9b10d2"]
+  }],
+  "urls": ["https://www.google.co.in/"],
+  "plugins": []
+}
