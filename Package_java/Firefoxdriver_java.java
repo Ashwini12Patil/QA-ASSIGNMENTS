@@ -3,7 +3,7 @@ package Package_java;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Class_javaf1 {
+public class Firefoxdriver_java {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

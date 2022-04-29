@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class PHP_java {
+public class PHPLogin_java {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -35,9 +35,7 @@ public class PHP_java {
 		
 		driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[2]/a")).click();
 		
-		
-	}
-
+	 }
 }
 
 

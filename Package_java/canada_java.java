@@ -41,7 +41,7 @@ public class canada_java {
          driver.findElement(By.xpath("//*[@id=\"xp__guests__inputs-container\"]/div/div/div[1]/div/div[2]/button[1]/span")).click();
          //click on child +
          driver.findElement(By.xpath("//*[@id=\"xp__guests__inputs-container\"]/div/div/div[2]/div/div[2]/button[2]/span")).click();
-         //select from dropdown
+         //select from DropDown
          Select dropdown = new Select (driver.findElement(By.xpath("//*[@id=\"xp__guests__inputs-container\"]/div/div/div[3]/select")));
          
         dropdown.selectByIndex(3);
